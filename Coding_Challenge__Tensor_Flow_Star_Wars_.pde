@@ -1,6 +1,6 @@
 String txt; 
 
-float y = 0; 
+float y = 0; //Check floats 
 
 void setup(){
   size(800, 600, P3D);
