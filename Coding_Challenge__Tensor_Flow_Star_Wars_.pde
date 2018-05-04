@@ -5,7 +5,7 @@ float y = 0;
 void setup(){
   size(800, 600, P3D);
   
-  String[] lines = loadStrings(""); 
+  String[] lines = loadStrings("");// This line of code needs to be fixed in order to make the text appear from the document 
   txt = join(lines, "/n"); 
   y = height/2;  
 }
